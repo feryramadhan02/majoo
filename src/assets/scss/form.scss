@@ -1,0 +1,25 @@
+@import '../scss/variable.scss';
+
+.actions {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    .btn-cancel {
+        @include tertiary;
+        width: 42%;
+        padding: 5px 15px;
+    }
+    .btn-cancel:hover {
+        background-color: #b3b3b3;
+        transition: .3s;
+    }
+    .btn-submit {
+        @include primary;
+        width: 42%;
+        padding: 5px 15px;
+    }
+    .btn-submit:hover {
+        background: #14d34a;
+            transition: .3s;
+    }
+}

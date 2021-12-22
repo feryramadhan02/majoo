@@ -54,7 +54,7 @@
                         margin: 0 40px 0 0;
                     }
                     .status-process {
-                        background: $tertiary-color;
+                        background: $eighty-color;
                         color: $primary-color;
                         text-align: center;
                         border-radius: 12px;
@@ -80,6 +80,9 @@
                             background: #ff6666;
                             transition: .3s;
                         }
+                        .btn-done-disable:hover {
+                            cursor: not-allowed;
+                        }
                     }
                 }
                 .data-row:hover {
@@ -94,4 +97,22 @@
             color: #757575b7;
         }
     }
+}
+
+.btn-cancel {
+    @include tertiary;
+    padding: 5px 15px;
+}
+.btn-cancel:hover {
+    background-color: #b3b3b3;
+    transition: .3s;
+}
+.btn-submit {
+    @include primary;
+    margin-right: 15px;
+    padding: 5px 15px;
+}
+.btn-submit:hover {
+    background: #14d34a;
+    transition: .3s
 }
