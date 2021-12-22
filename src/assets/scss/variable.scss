@@ -1,0 +1,35 @@
+$primary-color: #fff;
+$secondary-color: #07c53c;
+$tertiary-color: #ff5454;
+$fourthy-color: #a3a3a3;
+$fifthy-color: #e2f0c7;
+$sixthy-color: #1a1a1a;
+$seventhy-color: #348ef5;
+
+@mixin primary {
+    background: $secondary-color;
+    color: $primary-color;
+    border: none;
+    border-radius: 6px;
+}
+
+@mixin secondary {
+    background: $seventhy-color;
+    color: $primary-color;
+    border: none;
+    border-radius: 6px;
+}
+
+@mixin danger {
+    background: $tertiary-color;
+    color: $primary-color;
+    border: none;
+    border-radius: 6px;
+}
+
+@mixin tertiary {
+    background: $fourthy-color;
+    color: $primary-color;
+    border: none;
+    border-radius: 6px;
+}
